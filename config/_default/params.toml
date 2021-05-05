@@ -1,5 +1,6 @@
 logoText = "DogsCox Tech. Blog"
 logoType = "short" # long, short
+logo=false
 description = "A technical blog for data analysis and web development and so on."
 custom_css = ["/css/custom_fonts.css"]
 custom_js = []
