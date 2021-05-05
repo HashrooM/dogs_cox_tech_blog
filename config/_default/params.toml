@@ -162,11 +162,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = ""
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  twitter = "https://twitter.com/cox_dogs"
+  github = "https://github.com/DogsCox"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
