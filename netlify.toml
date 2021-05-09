@@ -1,0 +1,3 @@
+[build]
+publish = "public"
+command = "hugo --theme=zzo --gc --minify"
