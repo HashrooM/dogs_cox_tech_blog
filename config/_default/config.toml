@@ -1,4 +1,4 @@
-baseURL = "http://dogscox-trivial-tech-blog.com"
+baseURL = "https://dogscox-trivial-tech-blog.com"
 title = "dogscox tech. blog"
 theme = "zzo"
 
@@ -16,7 +16,7 @@ paginate = 13
 rssLimit = 100
 
 enableGitInfo = false
-googleAnalytics = ""
+googleAnalytics = "G-J019KZCZXN"
 
 [markup]
   [markup.goldmark]
