@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --theme=zzo --gc --minify --enableGitInfo"
+command = "hugo --theme=Zzo --gc --minify"
 
 [context.production.environment]
   HUGO_VERSION = "0.83.1"
