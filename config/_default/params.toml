@@ -209,8 +209,8 @@ commento = false
   name = "twitter"
 
 [[footerLinks]]
-  name = ""
-  link = ""
+  name = "Privacy policy"
+  link = "/privacy/"
 [[footerLinks]]
   name = ""
   link = ""
