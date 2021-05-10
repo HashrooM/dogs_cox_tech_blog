@@ -94,7 +94,7 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -210,7 +210,7 @@ commento = false
 
 [[footerLinks]]
   name = "Privacy policy"
-  link = "/privacy/"
+  link = "page"
 [[footerLinks]]
   name = ""
   link = ""
