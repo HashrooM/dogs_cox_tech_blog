@@ -212,5 +212,5 @@ commento = false
   name = "Privacy policy"
   link = "page"
 [[footerLinks]]
-  name = ""
-  link = ""
+  name = "お問い合わせ"
+  link = "form"
