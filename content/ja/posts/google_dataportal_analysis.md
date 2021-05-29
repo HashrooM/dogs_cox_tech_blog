@@ -1,5 +1,5 @@
 ---
-title: "【Googleデータポータル入門】Googleデータポータルでデータ分析"
+title: "【Googleデータポータル入門：第2回】Googleデータポータルでデータ分析"
 date: 2021-05-16T13:51:52+09:00
 description: "Googleデータポータルでテストデータを実際に分析してみます。"
 draft: false
