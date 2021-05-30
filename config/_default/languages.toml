@@ -1,13 +1,6 @@
 [ja]
-  title = "dogscox tech. blog"
+  title = "DogsCox's tech. blog"
   languageName = "日本語"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/ja"
-
-[en]
-  title = "dogscox tech. blog"
-  languageName = "English"
-  weight = 2
-  languagedir = "ltr"
-  contentdir = "content/en"

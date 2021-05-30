@@ -25,7 +25,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - Trivial Tech. Blog
+      - DogsCox's Tech. Blog
     subtitle:
       - 日々出会った技術について書き記していくブログ
     titleColor: 
