@@ -2,12 +2,12 @@
   {{ range $.Params.header }}
     {{ if eq .type "text" }}
       <div class="site-header basicflex-column site-header__align-{{ .align }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}" style="width: 100%; height: {{ .height }}px; padding: {{ .paddingY }}px {{ .paddingX }}px;">
-        {{ partial "service/google-adsense-head" . }}
         {{ $header := . }}
         {{ if .title }}            
           {{ range .title }}
           <div class="site-header__title {{ if $header.titleShadow }}site-header__title--shadow{{ end }}" style="font-size: {{ $header.titleFontSize }}px; {{ with $header.titleColor }}color:{{ . }}{{ end }};">
             {{ . }}
+            {{ partial "service/google-adsense-header" . }}
           </div>
           {{ end }}
         {{ end }}
