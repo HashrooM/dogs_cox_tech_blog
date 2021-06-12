@@ -14,8 +14,7 @@
   </div>
   <div class="toc {{ if $.Param "hideToc" }}hide{{ end }}" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-folding="{{ if $.Param "tocFolding" }}true{{ else }}false{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
     {{ .TableOfContents }}
-    {{ partial "service/google-adsense-side1" . }}
-    {{ partial "service/google-adsense-side2" . }}
+    {{ partial "service/google-adsense-side" . }}
   </div>
 </section>
 
