@@ -1,7 +1,7 @@
 ---
 title: "LINE Notifyでお買い物備忘メモを送信する"
 date: 2021-06-10T21:39:46+09:00
-description:
+description: "LINE NotifyとGASを用いて買い物の備忘メモをLINEに送信します。"
 draft: false
 hideToc: false
 enableToc: true

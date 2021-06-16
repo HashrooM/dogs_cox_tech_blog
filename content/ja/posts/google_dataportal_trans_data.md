@@ -1,7 +1,7 @@
 ---
 title: "【Googleデータポータル入門：番外編】データを可視化に向いた形式に変換する"
 date: 2021-05-26T23:36:38+09:00
-description:
+description: "可視化を簡単にできるようにPythonでデータを整形します。"
 draft: false
 hideToc: false
 enableToc: true

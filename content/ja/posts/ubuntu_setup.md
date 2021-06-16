@@ -11,7 +11,7 @@ tags:
 - Ubuntu
 - spacemacs
 series:
-- 
+- 環境構築
 categories:
 - memo
 ---

@@ -1,7 +1,7 @@
 ---
 title: "JupyterLabのターミナルから開くvimはどこのvimか"
 date: 2021-05-22T22:14:58+09:00
-description:
+description: "JupyterLabのターミナルのVimをカスタマイズしてみます。"
 draft: false
 hideToc: false
 enableToc: true
