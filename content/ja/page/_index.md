@@ -18,9 +18,10 @@ author: DogsCox
 
 
 ## 広告について
-当ブログでは、広告配信サービスとしてGoogleアドセンスを利用しており、広告を表示するためにクッキー（Cookie）を使用しております。  
+当ブログでは、広告配信サービスとして[Googleアドセンス](https://www.google.com/intl/ja_jp/adsense/start/ "google_adsense")、[もしもアフィリエイト](https://af.moshimo.com/ "mosimo_afi")を利用しております。  
+これらのサービスは広告を表示するためにクッキー（Cookie）を使用することがあります。  
 クッキーを使用することで当サイトはサイトに訪問された皆様のコンピュータを識別できるようになりますが、訪問された方個人を特定できるものではありません。  
-Cookieを無効にする方法やGoogleアドセンスに関する詳細は [広告 – ポリシーと規約 – Google](https://policies.google.com/technologies/ads?gl=jp "adsense_policy") をご確認ください。  
+Googleアドセンスに関して、Cookieを無効にする方法やGoogleアドセンスに関する詳細は [広告 – ポリシーと規約 – Google](https://policies.google.com/technologies/ads?gl=jp "adsense_policy") をご確認ください。  
 
 
 ## アクセス解析ツール
