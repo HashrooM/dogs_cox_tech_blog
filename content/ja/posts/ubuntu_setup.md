@@ -13,7 +13,7 @@ tags:
 series:
 - 環境構築
 categories:
-- memo
+- Tips
 ---
 
 5年選手の旧PCがずっとファンファン言うようになったため、思い切って新PCとしてミニPCのLenovo Think Centre M73 Tinyの再生品をアマゾンから購入しました。  

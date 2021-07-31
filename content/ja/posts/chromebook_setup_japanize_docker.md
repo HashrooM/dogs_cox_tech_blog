@@ -12,7 +12,7 @@ tags:
 series:
 - 環境構築
 categories:
-- memo
+- Tips
 ---
 
 この記事では chromebook で使える Linux環境 "crostini" の日本語化と Docker のセットアップ方法を解説します。  

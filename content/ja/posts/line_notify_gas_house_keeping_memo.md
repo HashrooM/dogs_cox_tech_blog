@@ -9,11 +9,11 @@ enableTocContent: false
 author: DogsCox
 tags:
 - GAS
-- LINE
+- LINE Notify
 series:
-- LINE notify
+- 
 categories:
--  
+-  "チャットボット"
 ---
 
 この記事では [Google Apps Script](https://workspace.google.co.jp/intl/ja/products/apps-script/ "gas") (GAS) と [LINE Notify](https://notify-bot.line.me/ja/ "line_notify") を用いて

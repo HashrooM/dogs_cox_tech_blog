@@ -8,12 +8,12 @@ enableToc: true
 enableTocContent: false
 author: DogsCox
 tags:
-- "BI tools"
-- "Google Dataportal"
+- "BIツール"
+- "Googleデータポータル"
 series:
-- "How to use Google Dataportal"
+- "Googleデータポータル入門"
 categories:
-- "Data Analysis"
+- "データ分析"
 ---
 
 [前回の記事]({{< ref "/posts/google_dataportal_setup.md" >}}) にて [Googleデータポータル](https://marketingplatform.google.com/intl/ja/about/data-studio/ "google_dataportal") にて分析をする準備を行いました。  

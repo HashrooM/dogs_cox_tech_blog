@@ -8,12 +8,12 @@ enableToc: true
 enableTocContent: false
 author: DogsCox
 tags:
-- "BI tools"
-- "Google Dataportal"
+- "BIツール"
+- "Googleデータポータル"
 series:
-- "How to use Google Dataportal"
+- "Googleデータポータル入門"
 categories:
-- "Data Analysis"
+- "データ分析"
 ---
 
 [Googleデータポータル入門：第1回]({{<ref "/posts/google_dataportal_setup.md" >}})と[Googleデータポータル入門：第2回]({{<ref "/posts/google_dataportal_analysis.md" >}})でデータポータルへのデータの連携と簡単な分析について説明しました。  
