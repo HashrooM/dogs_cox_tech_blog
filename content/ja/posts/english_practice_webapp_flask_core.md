@@ -1,5 +1,5 @@
 ---
-title: "【Flask入門1】Flaskで作る英単語学習アプリver0.1(環境構築とコアロジック)"
+title: "【Flask入門 1】Flaskで作る英単語学習アプリver0.1(環境構築とコアロジック)"
 date: 2021-07-24T21:44:42+09:00
 description: "Flaskの練習として、英単語練習アプリを作ってみました。"
 draft: false
@@ -23,9 +23,9 @@ categories:
 
 [flask webapp version 0.1](https://github.com/DogsCox/english_word_practice_flask_webapp/tree/fbad1d9f2399a2718b3be427b0381f8c0f38c491 "v0.1")
 
-今回は第一回目の記事で、環境構築から英単語学習問題を出題するためのコアロジックまでのみの解説です。  
-webアプリ機能については次回の記事で説明するので、Flaskの使い方についてご興味のある方は  
-次回の記事を参照してください。  
+今回は第一回目の記事で、環境構築から英単語学習問題を出題するためのコアロジックまでの解説です。  
+ウェブアプリ機能については次回の記事で説明するので、Flaskの使い方についてご興味のある方は  
+[次回の記事]({{<ref "/posts/english_practice_webapp_flask_app.md" >}}) を参照してください。  
 
 
 ## Flaskとは
@@ -41,20 +41,20 @@ Djangoはある程度大きなサービスを展開するのに向いている�
 
 ## 今回作成するアプリ
 今回作成するのは日本語に対応した英単語を答える問題が3問出題され、  
-回答すると正解と正解数を表示する簡単なwebアプリです。  
+回答すると正解と正解数を表示する簡単なウェブアプリです。  
 
 以下の画像のように日本語と英単語の品詞が出題され、空欄に英単語を入力すると...  
-![problems](/images/english_practice_webapp_flask/problems.png "problems")  
+![problems](/images/english_practice_webapp_flask_core/problems.png "problems")  
 
 以下のように正解、入力した回答、正解数を表示します。  
-![answers](/images/english_practice_webapp_flask/answer.png "answers")  
+![answers](/images/english_practice_webapp_flask_core/answer.png "answers")  
 
 今の所htmlやcssを全然作り込んでいないため、ものすごいシンプルな（というか手抜きの）画面になっています...  
 今後画面のデザインの方も頑張りたいと思います。  
 
 
 ## 環境構築
-webアプリを作成するための環境を構築していきます。  
+ウェブアプリを作成するための環境を構築していきます。  
 こちらも勉強のためにdocker, docker-composeで環境を作っていきます。  
 今後DBとの連携もしたいので、docker-composeを使ってみました（今のところはアプリ用のコンテナだけですが）。  
 
@@ -150,7 +150,7 @@ services:
 `working_dir`をDockerfileの`WORK_DIR`に合わせています。(不要かも？)  
 また、コンテナのポート5000をローカルのポート8080にフォワーディングしています。  
 
-Flaskでwebアプリを立ち上げた際にデフォルトでポート5000を開くので、このようにしています。  
+Flaskでウェブアプリを立ち上げた際にデフォルトでポート5000を開くので、このようにしています。  
 
 ここまでで環境構築は終わりです。  
 以下のコマンドでコンテナをbuildし、コンテナを起動します。  
@@ -171,7 +171,8 @@ $ docker-compose down
 
 
 ## ディレクトリ構成
-まず、全体像として今回作成するwebアプリのディレクトリ構造を示します。  
+まず、全体像として今回作成するウェブアプリのディレクトリ構造を示します。  
+今回作成するのはデータを格納する `/data/` 以下とロジック部分の `/eng_practice/` 以下となります。   
 
 ```
 <root>
@@ -187,7 +188,7 @@ $ docker-compose down
 |  |--id_pass.txt       # 認証用
 |
 |--eng_practice
-|  |--__init__.py
+|  |--__init__.py       # 空ファイル
 |  |--eng_question.py   # 英単語学習用の問題を出題する機能
 |
 |--templates
@@ -285,5 +286,14 @@ for i, p in enumerate(problems_sampled):
     p['ord'] = i
 ```
 
+それでは `eng_question.py` をテスト実行してみましょう。  
+
+```bash
+$ python eng_question.py
+[{'id': '6', 'word': 'eat', 'ja': '食べる', 'type': '動詞', 'ord': 0}, {'id': '9', 'word': 'read', 'ja': '読む', 'type': '動詞', 'ord': 1}, {'id': '4', 'word': 'cute', 'ja': 'かわいい', 'type': '形容詞', 'ord': 2}]
+```
+
+想定通り英単語の情報と順序 (`'ord'`) がきちんと返ってきていますね。  
+
 今回説明するのはここまでです。  
-次回の記事でランダムに選んだ英単語の情報を用い、英単語練習アプリのアプリ部分を作っていきます。  
+[次回の記事]({{<ref "/posts/english_practice_webapp_flask_app.md" >}})ではランダムに選んだ英単語の情報を用い、英単語練習アプリのアプリ部分を作っていきます。  
