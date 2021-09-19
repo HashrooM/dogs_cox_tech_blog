@@ -8,6 +8,7 @@ enableToc: true
 enableTocContent: false
 author: DogsCox
 tags:
+- Python
 - Flask
 series:
 - "Flask入門"
