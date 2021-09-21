@@ -1,5 +1,5 @@
 ---
-title: "【Streamlit 入門1】Streamlit で機械学習のデモアプリ作成"
+title: "【Streamlit 入門 1】Streamlit で機械学習のデモアプリ作成"
 date: 2021-09-19T20:19:23+09:00
 description: "Streamlit で機械学習を用いた簡単なデモアプリを作成してみました。"
 draft: false
@@ -212,9 +212,9 @@ def make_iris_df():
 
 ### データの表示
 まずはデータを画面に表示してみます。  
-Streamlit は `pandas.DataFrame` を `st.dataframe()` 関数で簡単に画面に表示させることができます。  
+Streamlit は `pandas.DataFrame` を `streamlit.dataframe()` 関数で簡単に画面に表示させることができます。  
 また、この際に表示する行数をユーザが選べるようにしてみます。  
-こちらも `st.number_input()` 関数で簡単に実装できます。  
+こちらも `streamlit.number_input()` 関数で簡単に実装できます。  
 
 ``` Python
 def st_display_df(df: pd.DataFrame):
@@ -299,7 +299,7 @@ def st_display_pairplot(df: pd.DataFrame):
     st.pyplot(fig)
 ```
 
-こちらも `st.pyplot()` 関数で簡単に出力できましたね。  
+こちらも `streamlit.pyplot()` 関数で簡単に出力できましたね。  
 ウェブアプリ上では以下のように出力されます。  
 (上部の説明文はメイン部分で markdown で出力しています。)  
 
@@ -343,7 +343,7 @@ def st_display_plotly(df: pd.DataFrame):
     st.plotly_chart(fig, user_container_width=True)
 ```
 
-こちらも `st.plotly_chart()` 関数で一発です。以下のように表示されます。  
+こちらも `streamlit.plotly_chart()` 関数で一発です。以下のように表示されます。  
 (Plotly についての説明は割愛します。)   
 ブラウザ上で拡大縮小ができるグラフを作れます。  
 
@@ -398,7 +398,7 @@ def st_display_dtree(clf):
 ```
 
 `ml_dree()` 関数で学習したモデルを `st_display_dtree()` 関数でウェブアプリ上に表示しています。  
-これは Streamlit の `st.graphviz_chart()` という Graphviz との連携機能で実現されます。  
+これは Streamlit の `streamlit.graphviz_chart()` という Graphviz との連携機能で実現されます。  
 
 以下のように表示されます。  
 
@@ -438,7 +438,7 @@ def st_file_uploader() -> pd.DataFrame:
         return pd.DataFrame()
 ```
 
-`st.file_uploader()` 関数を使うだけで実装できました。  
+`streamlit.file_uploader()` 関数を使うだけで実装できました。  
 このあたり、本当は例外処理やデータのバリデーションを行ったほうが良いですね。  
 
 これでウェブアプリ上にドラッグ & ドロップでファイルをアップロードできる画面が作られます。
