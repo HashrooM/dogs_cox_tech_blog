@@ -32,7 +32,6 @@ categories:
 <a href="//af.moshimo.com/af/c/click?a_id=3416857&p_id=3736&pc_id=9151&pl_id=52782&url=https%3A%2F%2Fdatafolio.jp%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="https://image.moshimo.com/af-img/3237/000000052782.png" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=3416857&p_id=3736&pc_id=9151&pl_id=52782" width="1" height="1" style="border:none;">
 
 
-
 ## "Movies on Netflix, Prime Video, Hulu and Disney+" データセットについて
 本記事で扱うデータについて少し解説します。  
 詳しい説明は [こちら](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney "test") を参照してください。  
