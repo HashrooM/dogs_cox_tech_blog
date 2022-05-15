@@ -18,23 +18,13 @@ categories:
 
 [前回の記事]({{< ref "/posts/google_dataportal_setup.md" >}}) にて [Googleデータポータル](https://marketingplatform.google.com/intl/ja/about/data-studio/ "google_dataportal") にて分析をする準備を行いました。  
 この記事では実際にテストデータの分析を行ってみます。  
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"Googleデータポータルによるレポート作成の教科書　多様なデータベースと接続するウェブ解析レポートを徹底解説／安田渉／小川卓／江尻俊章【3000円以上送料無料】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/booxstore\/cabinet\/01066\/bk4839975736.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/booxstore\/bk-4839975736\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/booxstore\/bk-4839975736\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"7PBdU","s":"s"});
-</script>
-<div id="msmaflink-7PBdU">リンク</div>
-<br>
-<!-- MoshimoAffiliateEasyLink END -->
-
 まだデータをアップロードしていない場合は、以下の手順に従ってデータをGoogleデータポータルにアップロードしてください。  
 （詳細は前回の記事をご覧ください。）  
+
+今回は特に見た目にこだわったダッシュボードのようなものは作りません。  
+もしある程度見た目にこだわる場合はデフォルトで用意されているテーマ以外にも以下のようなサイトからテンプレートを購入してしまうのも一手かと思います。  
+
+<a href="//af.moshimo.com/af/c/click?a_id=3416857&p_id=3736&pc_id=9151&pl_id=52782&url=https%3A%2F%2Fdatafolio.jp%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="https://image.moshimo.com/af-img/3237/000000052782.png" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=3416857&p_id=3736&pc_id=9151&pl_id=52782" width="1" height="1" style="border:none;">
 
 1. Google Drive上に [テストデータ](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney "test") をアップロードして、右クリック → アプリで開く → スプレッドシートを選択してGoogleスプレッドシート形式で保存
 1. Googleデータポータルにログインし、左側のメニューの "作成" → データソース → Googleスプレッドシートを選択
