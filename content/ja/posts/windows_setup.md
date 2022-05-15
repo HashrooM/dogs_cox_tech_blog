@@ -47,6 +47,20 @@ categories:
 (伝わっているか心配ですが)  
 今後もメイン PC はデスクトップにする予定なので、これは新たな発見でした。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"ポイント最大25倍！！ Panasonic WHA4911WP パナソニック 延長コードX 1m テーブルタップ ホワイト 送料無料 【SK00282】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/thinkrich\/cabinet\/sale2_muryou_00\/s00282.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/thinkrich\/z00974\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/thinkrich\/z00974\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"sTqyL","s":"s"});
+</script>
+<div id="msmaflink-sTqyL">リンク</div>
+<br>
+<!-- MoshimoAffiliateEasyLink END -->
+
 
 ## 初回立ち上げ後の作業
 電源を入れた後に初期設定として行った作業を列挙します。  

@@ -16,6 +16,10 @@ categories:
 - "データ分析"
 ---
 
+時系列データにおいて、タイムスタンプが欠損している場合の対処方法です。  
+こちらの書籍で書かれている内容を Python でやってみた、という記事です。  
+（書籍では R で作業しています。）  
+
 <!-- START MoshimoAffiliateEasyLink -->
 <script type="text/javascript">
 (function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
@@ -27,11 +31,8 @@ d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
 msmaflink({"n":"実践　時系列解析 統計と機械学習による予測 [ Aileen Nielsen ]","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/book\/cabinet\/9601\/9784873119601_1_3.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/book\/16823634\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/book\/16823634\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"PLg0m","s":"s"});
 </script>
 <div id="msmaflink-PLg0m">リンク</div>
+<br>
 <!-- MoshimoAffiliateEasyLink END -->  
-
-時系列データにおいて、タイムスタンプが欠損している場合の対処方法です。  
-こちらの書籍で書かれている内容を Python でやってみた、という記事です。  
-（書籍では R で作業しています。）  
 
 時系列データにおいて、タイムスタンプはデータ行のインデックスとして考えられます。  
 そのためタイムスタンプの欠損は「あるはずのデータ行の全てが存在しない」という状態に相当します。  

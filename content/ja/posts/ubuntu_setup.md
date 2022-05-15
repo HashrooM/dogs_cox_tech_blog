@@ -23,6 +23,21 @@ CPUがCore-i5、メモリ8GB、ディスクSSD 256GBなのでデフォルトのw
 今までも何度かWindows PCにUbuntuをインストールしてきたのですが、そのたびに毎回同じことを同じページで調べているような気がしてきたので、これを期に手順をまとめて備忘録として残しておきます。  
 といってもほとんど偉大な先人たちが残してくれたウェブ上の情報をコピペしているだけなので、参考URL集みたいになってしまいました。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【中古】 Lenovo ThinkCentre M73 Tiny\/第四世代Core i5-4570T\/無線LAN\/ 8GBメモリ \/ SSD 256GB\/USB3.0\/WIFI\/光学ドライブ\/DisplayPort\/","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/trmt-1\/cabinet\/302-1\/b0825k5393.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/trmt-1\/b0825k5393\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/trmt-1\/b0825k5393\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"qnTtO","s":"s"});
+</script>
+<div id="msmaflink-qnTtO">リンク</div>
+<br>
+<!-- MoshimoAffiliateEasyLink END -->
+
+
 ## 旧PCでUbuntuの起動ディスクを作成
 起動ディスクと言っていますがUSBメモリでやりました。  
 
@@ -110,6 +125,20 @@ BIOSで何をどうしたかはちょっと覚えていないのですが、電�
 
 こちらのページを参考に設定しました。 [Linuxで使えるUSB Wifiの探索 (Ubuntu 20.04LTS)](https://qiita.com/takaf05/items/5034e9234331ed6ecf2f "ubuntu_wifi")  
 無線LANのレシーバもこちらのページに記載されている "TP-Link T2U" を新たに購入して使用しましたが、もしかしたら付属のレシーバでもできたのかもしれません...  
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"TP-Link Archer 無線LAN子機 T2U Plus AC600 ハイパワー デュアルバンド 【即納・送料無料】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/auc-pcfreak\/cabinet\/05505879\/imgrc0076529337.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/auc-pcfreak\/10004255\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/auc-pcfreak\/10004255\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"A2oiS","s":"s"});
+</script>
+<div id="msmaflink-A2oiS">リンク</div>
+<br>
+<!-- MoshimoAffiliateEasyLink END -->
 
 
 ## pyenvでpythonインストール

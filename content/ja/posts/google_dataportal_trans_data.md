@@ -23,6 +23,20 @@ categories:
 「コンピュータが処理しやすい形でデータを保存する」という汎用性の高い内容でもあります。  
 ぜひ目を通していっていただければと思います。  
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"Googleデータポータルによるレポート作成の教科書　多様なデータベースと接続するウェブ解析レポートを徹底解説／安田渉／小川卓／江尻俊章【3000円以上送料無料】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/booxstore\/cabinet\/01066\/bk4839975736.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/booxstore\/bk-4839975736\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/booxstore\/bk-4839975736\/","a_id":2682976,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"7PBdU","s":"s"});
+</script>
+<div id="msmaflink-7PBdU">リンク</div>
+<br>
+<!-- MoshimoAffiliateEasyLink END -->
+
 
 ## データの形式
 [前回の記事]({{<ref "/posts/google_dataportal_analysis.md" >}})で動画視聴サービスごとに棒グラフを作成する際、各視聴サービスごとに同じ操作（指標の作成、フィルタの適用、グラフの作成）を繰り返してグラフを作成しました。  
